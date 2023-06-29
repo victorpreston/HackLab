@@ -1,8 +1,6 @@
 # blackhatPython
 A set of network tools for your hacking delight. 
 
-These tools are created with the help of "Blackhat Python: Python Programming for Hackers and Pentesters". 
-
 Often when you're connected to a server, you don't necessarily have the right tools at hand. Experienced system administrators often removes packages like `netcat` - and you can forget all about `Wireshark`. Luckily we often find the `Python` package to be installed on such servers, though, and that's where these tools come in handy - a replacement for typical needed network tools. 
 
 ## Table of Content
@@ -22,7 +20,7 @@ First you'd have to figure the local IP of the device you're connected to - some
 
 Run it with root privileges;
 
-    $ sudo python2 hostScanner.py
+    $ sudo python3 hostScanner.py
 
 After just a few seconds you'll begin to get devices that responded to a UDP broadcast.
 
@@ -89,7 +87,7 @@ Fire off a quick command against a SSH host, that you already have the right cre
 
 This requires you to have the `Paramiko` package installed - do so with your package-manager (preferred) or with `pip` ex.
 
-    $ sudo pacman -S python2-paramiko
+    $ sudo pacman -S python3-paramiko
 
 First define your SSH Host, Credentials and Command at the last line in this script. My test server is called `serv` and I'll be running the command `id` - Change the IP accordingly;
 
@@ -112,7 +110,7 @@ We'll be using `sshServer.py` and `sshReverseCmd.py` for this magic.
 
 This requires you to have the `Paramiko` package installed - do so with your package-manager (preferred) or with `pip` ex.
 
-    $ sudo pacman -S python2-paramiko
+    $ sudo pacman -S python3-paramiko
     
 Note that you'll have to pass along a SSH-Key in the server file. You could use this [Paramiko test key](https://github.com/paramiko/paramiko/blob/master/demos/test_rsa.key) if you feel lazy.
 
