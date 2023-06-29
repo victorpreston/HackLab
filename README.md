@@ -5,10 +5,10 @@ Often when you're connected to a server, you don't necessarily have the right to
 
 ## Table of Content
 * [Host Scanner](https://github.com/victorpreston/HackLab/tree/master/HostScanner)
-* [Netcat Replacement](#netcat-replacement)
-* [SSH Command](#ssh-command)
+* [Netcat Replacement](https://github.com/victorpreston/HackLab/tree/master/NetcatReplacement)
+* [SSH Command](https://github.com/victorpreston/HackLab/tree/master/SSH_Command)
 * [SSH Reverse](#ssh-reverse)
-* [TCP Client and Server](#tcp-client-and-server)
+* [TCP Client and Server](https://github.com/victorpreston/HackLab/tree/master/TCP_Client)
 * [TCP Proxy](#tcp-proxy)
 * [UDP Client](#udp-client)
 
