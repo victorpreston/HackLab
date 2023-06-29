@@ -177,4 +177,10 @@ Now fire up your FTP application and point it to `localhost` at port `21` and co
 
 <br><br>
 ### UDP Client
-Just as our TCP client, the UDP client isn't much different. Define a target IP and Port at line 4 & 5. The UDP client will fire off a message defined at line 9 and wait for the reponse.  
+Just as our TCP client, the UDP client isn't much different. Define a target IP and Port at line 4 & 5. The UDP client will fire off a message defined at line 9 and wait for the reponse. 
+
+## Disclaimer
+
+Please note that the projects in HackLab are intended for ethical purposes only. Ensure that you adhere to ethical guidelines, applicable laws, and obtain proper permissions before applying any techniques or tools demonstrated in the projects. The creator of HackLab is not responsible for any misuse or illegal activities conducted using the information or code provided.
+
+
