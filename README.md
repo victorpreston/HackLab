@@ -182,12 +182,12 @@ Just as our TCP client, the UDP client isn't much different. Define a target IP 
 
 ```mermaid
 flowchart LR
-    style Star fill:#aaaaaa,stroke:#000000,stroke-width:2px,stroke-dasharray:5,5,font-weight:bold
-    style Fork fill:#aaaaaa,stroke:#000000,stroke-width:2px,font-weight:bold
-    style branch fill:#aaaaaa,stroke:#000000,stroke-width:2px,font-weight:bold
-    style Edit fill:#aaaaaa,stroke:#000000,stroke-width:2px,font-weight:bold
-    style commit fill:#aaaaaa,stroke:#000000,stroke-width:2px,font-weight:bold
-    style creatpr fill:#aaaaaa,stroke:#000000,stroke-width:2px,font-weight:bold
+    style Star fill:#444444,stroke:#000000,stroke-width:2px,stroke-dasharray:5,5,font-weight:bold
+    style Fork fill:#444444,stroke:#000000,stroke-width:2px,font-weight:bold
+    style branch fill:#444444,stroke:#000000,stroke-width:2px,font-weight:bold
+    style Edit fill:#444444,stroke:#000000,stroke-width:2px,font-weight:bold
+    style commit fill:#444444,stroke:#000000,stroke-width:2px,font-weight:bold
+    style creatpr fill:#444444,stroke:#000000,stroke-width:2px,font-weight:bold
     Star["★ Star the Repository"]-->Fork
     Fork[Fork the project]-->branch[Create a New Branch]
     branch-->Edit[Edit file]
