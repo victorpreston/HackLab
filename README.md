@@ -178,6 +178,23 @@ Now fire up your FTP application and point it to `localhost` at port `21` and co
 <br><br>
 ### UDP Client
 Just as our TCP client, the UDP client isn't much different. Define a target IP and Port at line 4 & 5. The UDP client will fire off a message defined at line 9 and wait for the reponse. 
+## Contributor Guide
+
+```mermaid
+flowchart LR
+    style Star fill:#ffdf00,stroke:#000000,stroke-width:2px
+    style Fork fill:#1abc9c,stroke:#000000,stroke-width:2px
+    style branch fill:#3498db,stroke:#000000,stroke-width:2px
+    style Edit fill:#9b59b6,stroke:#000000,stroke-width:2px
+    style commit fill:#e67e22,stroke:#000000,stroke-width:2px
+    style creatpr fill:#2ecc71,stroke:#000000,stroke-width:2px
+    Star["★ Star the Repository"]-->Fork
+    Fork[Fork the project]-->branch[Create a New Branch]
+    branch-->Edit[Edit file]
+    Edit-->commit[Commit the changes]
+    commit -->|Finally|creatpr((Create a Pull Request))
+    
+ ```
 
 ## Disclaimer
 
